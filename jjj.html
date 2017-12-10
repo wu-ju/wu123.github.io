@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="swiper.min.css">
+
+    <!-- Demo styles -->
+	<style>
+      body {
+    
+        background: #fff;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+     .swiper-container {
+        width: 100%;
+        padding-top: 50px;
+        
+    }
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+
+    }
+      
+    
+   
+    .top{
+    	width:100%;
+		height:30%;
+
+
+    }
+    img{
+    	width:40%;
+		height:40%;
+		float: left;
+
+    }
+    p{
+    	color:#000;
+    	font-size: 18px;
+    }
+    .top_left{
+    	float: left;
+		width:10%;
+		height:40%;
+		color: #f0162f;
+
+
+		text-align:center;
+		
+        text-decoration: none;
+    }
+     .top_left h3{
+     	font-size: 20px;
+     	font-weight: bold;
+        text-decoration: none;
+     }
+     .top_left h2{
+     	font-size: 20px;
+     	font-weight: bold;
+        color:#000;
+        text-decoration: none;
+     }
+     .top_left a{
+     	text-decoration: none;
+     	color:#000;
+     }
+     .top_left h2:hover{
+     	color:#e4007f;
+     	
+     }
+     .top_mid{
+     	width:80%;
+		height:80%;
+		float: left;
+		margin-left:10px;
+		
+        font-size: 23px;
+     }
+    
+     .top_midbox1 ul li{
+        width:30%;
+		height:40%;
+		display: inline;
+	    float: left;
+        padding-left:15px;
+        font-size: 23px;
+        
+     }
+    .top_midbox1 a{
+    	text-decoration: none;
+    }
+          .top_midbox2 ul li{
+        width:25%;
+		height:35%;
+		display: inline;
+	    float: left;
+        padding-left:30px;
+        padding-top: 15px;
+     }
+    .top_midbox2 a{
+    	text-decoration: none;
+    }
+       
+
+     
+     
+     
+
+	</style>
+</head>
+<body>
+<div class="wrap"><img src="images/花1.jpg" alt="" style="position:fixed; width:100%; height:100%; z-index:-1"></div>
+<!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            
+             <div class="swiper-slide" style="background-image:url(images/333.jpg)"></div>
+            <div class="swiper-slide" style="background-image:url(images/444.jpg)"></div>
+            <div class="swiper-slide" style="background-image:url(images/555.jpg)"></div>
+            <div class="swiper-slide" style="background-image:url(images/666.jpg)"></div>
+            <div class="swiper-slide" style="background-image:url(images/777.jpg)"></div>
+             <div class="swiper-slide" style="background-image:url(images/致青春2.jpg)"></div>
+            <div class="swiper-slide" style="background-image:url(images/教室1.jpg)"></div>
+            
+            <div class="swiper-slide" style="background-image:url(images/篮球框.jpg)"></div>
+            <div class="swiper-slide" style="background-image:url(images/222.jpg)"></div>
+    </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflow: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows : true
+        }
+    });
+    </script>
+
+<div class="top">
+<div class="top_left">
+<h3>图书分类</h3>
+
+<a href="bbb.html"><p><h2>首页</h2></p></a>
+<a href=""><p><h2>言情</h2></p></a>
+<a href=""><p><h2>名著</h2></p></a>
+<a href=""><p><h2>历史</h2></p></a>
+<a href=""><p><h2>玄幻</h2></p></a>
+<a href=""><p><h2>穿越</h2></p></a>
+<a href=""> <p><h2>校园</h2></p></a>
+ <a href=""><p><h2>科幻</h2></p></a>
+ <a href=""><p><h2>悬疑</h2></p></a>
+ <a href=""><p><h2>武侠</h2></p></a>
+ <a href=""><p><h2>耽美</h2></p></a>
+ <a href=""></div>
+ 
+ <div class="top_mid">
+ <div class="top_midbox1">
+ <ul>
+<li>
+ <a href="#"> <img src="images/3.jpg" alt=""  >
+         
+      <p>《那些回不去的年少时光：不是所有的记忆都美好，不是所有的人都值得记忆，岁月的河流太漫长，大部分的人与事都将被冲走，但是与青春有关的一切，总会沉淀到河底，成为不可磨灭的美好回忆。》</p></li>
+<li>
+	 <a href="#"> <img src="images/4.jpg" alt="">
+        <p>《暗恋橘生淮南：你有没有爱过一个人，爱到刻骨铭心，却无人知晓？》</p></a> </li>
+<li>
+    <a href="#"><img src="images/5.jpg" alt=""> <p>《年华是无效信：我从出生起就一直微弱的运气，到现在也没发挥它最大的威力，最终还是让我成为一个安静而感伤的旁观者。》</p></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="top_midbox2">
+ <ul>
+<li>
+ <a href="hhh.html"> <img src="images/aaa.jpg" alt=""  >
+         
+      <p>《十年一品温如言：相见面的时候，不懂得相思是什么。等到梦中无人，才知道，她的样子被他千遍万遍的画入脑中，与时光同在。》</p></a></li>
+<li>
+	 <a href="#"> <img src="images/7.jpg" alt="" >
+        <p>《山月不知心底事：他只是想陪在他身边，近一点，在近一点，仅此而已，再没有别的非分之想，甚至不敢真的贴近，只期待她的一个不小心，衣袖扫过，发稍拂过，它就像偷到糖果一样的孩子一样开心。》</p></a> </li>
+<li>
+    <a href="#"><img src="images/8.jpg" alt=""> <p>《何以笙箫默：如果世界上曾经有那个人出现过，其他人都会变成将就！而我不愿将就。》</p></a></li>
+</ul>
+</div>
+</div>
+</div>
+ 
+</body>
+</html>
